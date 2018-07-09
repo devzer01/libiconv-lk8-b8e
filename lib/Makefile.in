@@ -228,6 +228,14 @@ SOURCE_FILES = \
       tis620.h \
       cp874.h \
       viscii.h \
+      lk8t.h \
+      b8e_brah.h \
+      b8e_devan.h \
+      b8e_beng.h \
+      b8e_malay.h \
+      b8e_myanm.h \
+      b8e_sinh.h \
+      b8e_tamil.h \
       tcvn.h \
       iso646_jp.h \
       jisx0201.h \

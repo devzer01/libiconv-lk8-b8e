@@ -1038,3 +1038,54 @@ DEFENCODING(( "ISO-2022-KR",            /* IANA, RFC 1557 */
             iso2022_kr,
             { iso2022_kr_mbtowc, NULL },  { iso2022_kr_wctomb, iso2022_kr_reset })
 
+DEFENCODING(( "LK8-T",            /* IANA, RFC 1557 */
+"lk8t",
+"lk8tj",
+"lk8tw"
+),
+lk8t,
+{ lk8t_mbtowc, lk8t_reset },  { lk8t_wctomb, lk8t_reset })
+
+DEFENCODING(( "B8E-BRAH",
+"b8ebrah",
+"b8ebraht",
+"b8ebrahw",
+),
+b8ebrah,
+{ b8ebrah_mbtowc, NULL },  { b8ebrah_wctomb, NULL })
+
+DEFENCODING(( "B8E-DEVAN",
+"b8edevan",
+"b8edevant",
+"b8edevanw"
+),
+b8edevan,
+{ b8edevan_mbtowc, lk8t_reset },  { b8edevan_wctomb, lk8t_reset })
+
+DEFENCODING(( "B8E-BENG",
+"b8ebeng",
+"b8ebengt",
+"b8ebengw"
+),
+b8ebeng,
+{ b8ebeng_mbtowc, lk8t_reset },  { b8ebeng_wctomb, lk8t_reset })
+
+DEFENCODING(( "B8E-MALAY",
+"b8emalay"),
+b8emalay,
+{ b8emalay_mbtowc, NULL },  { b8emalay_wctomb, NULL })
+
+DEFENCODING(( "B8E-MYANM",
+"b8emyanm"),
+b8emyanm,
+{ b8emyanm_mbtowc, NULL },  { b8emyanm_wctomb, NULL })
+
+DEFENCODING(( "B8E-SINH",
+"b8esinh"),
+b8esinh,
+{ b8esinh_mbtowc, NULL },  { b8esinh_wctomb, NULL })
+
+DEFENCODING(( "B8E-TAMIL",
+"b8etamil"),
+b8etamil,
+{ b8etamil_mbtowc, NULL },  { b8etamil_wctomb, NULL })

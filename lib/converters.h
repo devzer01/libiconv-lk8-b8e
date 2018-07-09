@@ -199,6 +199,14 @@ struct conv_struct {
 #include "cp874.h"
 #include "viscii.h"
 #include "tcvn.h"
+#include "lk8t.h"
+#include "b8e_brah.h"
+#include "b8e_devan.h"
+#include "b8e_beng.h"
+#include "b8e_malay.h"
+#include "b8e_myanm.h"
+#include "b8e_sinh.h"
+#include "b8e_tamil.h"
 
 /* CJK character sets [CCS = coded character set] [CJKV.INF chapter 3] */
 
